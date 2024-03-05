@@ -28,19 +28,19 @@ WordCounter é um contador de palavras simples que rastreia e exibe o número de
 ```
 word-counter/
 │
-├── index.html          
+├── index.html
 ├── assets/
-│   ├── bootstrap/     
+│   ├── bootstrap/
 │   │   ├── css/
 │   │   │   └── bootstrap.min.css
-│   │   ├── js/
-│   │   │   └── bootstrap.bundle.min.js
+│   │   └── js/
+│   │       └── bootstrap.bundle.min.js
 │   ├── jquery/
 │   │   └── jquery.min.js
 │   ├── js/
 │   │   └── app.js
-│   ├── css/
-│   │   └── app.css
+│   └── css/
+│       └── app.css
 └── README.md
 ```
 
