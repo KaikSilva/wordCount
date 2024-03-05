@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WordCounter</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/K-logo.png" />
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="/assets/css/app.min.css" />
+  </head>
+
+  <body>
+    <div class="app-header">
+      <span id="ThemeButton" class="material-symbols-outlined">
+        brightness_6
+      </span>
+    </div>
+    <div class="container app">
+      <div class="col-sm-8 d-flex align-items-center flex-column mb-4">
+        <h1 class="displayResultWords">
+          <span class="resultWords">0</span> palavras
+        </h1>
+        <p>
+          total de <span class="resultWords">0</span> palavras e
+          <span class="resultCharacter">0</span> letras
+        </p>
+      </div>
+      <div class="col-sm-8">
+        <textarea
+          class="form-control"
+          name="mywords"
+          id="mywords"
+          rows="10"
+        ></textarea>
+        <div class="form-text w-100 text-center footer">
+          Feito com ❤️ por
+          <a target="_blank" href="https://kaiksilva.github.io/portifolio/"
+            >Kaik Silva</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="/assets/jquery/jquery.min.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/app.js"></script>
