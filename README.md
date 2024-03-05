@@ -23,9 +23,10 @@ WordCounter é um contador de palavras simples que rastreia e exibe o número de
 - JavaScript
 - jQuery
 
-```markdown
+
 ## Estrutura do Projeto
-```
+
+```markdown
 word-counter/
 │
 ├── index.html
