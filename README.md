@@ -1,6 +1,4 @@
-Claro, aqui está um exemplo de README para o projeto WordCounter feito em JavaScript:
 
----
 
 # WordCounter
 
